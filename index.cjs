@@ -57,7 +57,7 @@ getLatest().then((ver) => {
         console.error('OUTDATED VERSION! Updating...')
         exec(`npm i ppcalc@${ver} -g`)
     } else {
-        const penisNames = ['penis', 'dick', 'cock', 'big willy', 'willy', 'ding dong', 'pickle', 'thick boi', 'big tickler', 'chicken', 'king kong', 'lemonade dispenser', 'magic wand', 'water gun']
+        const penisNames = ['penis', 'dick', 'cock', 'big willy', 'willy', 'ding dong', 'pickle', 'thick boi', 'big tickler', 'chicken', 'king kong', 'lemonade dispenser', 'magic wand', 'water gun', 'bazinga', 'bazinga bazoonga', 'upside-down T', 'lil peeper', 'cream factory', 'firecracker', 'elmo']
         const pps = {
             XS: '8=D', // 0+
             small: '8==D', // 3+
@@ -84,7 +84,7 @@ getLatest().then((ver) => {
 
         var realLen = Math.ceil(length/9 * 100) / 100
 
-        const anim1 = chalka.rainbow(figlet.textSync(`${answer.name}'s ${penisNames[Math.floor(Math.random() * 13)]} is...`))
+        const anim1 = chalka.rainbow(figlet.textSync(`${answer.name}'s ${penisNames[Math.floor(Math.random() * penisNames.length)]} is...`))
 
         setTimeout(() => {
             const anim2 = chalka.neon(figlet.textSync(`\n${realLen}in\n`))

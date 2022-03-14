@@ -1,6 +1,6 @@
 {
   "name": "ppcalc",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Calculates PP length.",
   "main": "index.cjs",
   "type": "module",
